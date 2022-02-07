@@ -1,30 +1,63 @@
-.navbar{
-    height: 150px;
+.navbar {
+  height: 150px;
 
-    .logo{
-        svg{
-            width: auto;
-            height: 35px;
-        }
+  .logo {
+    svg {
+      width: auto;
+      height: 35px;
     }
+  }
 
-    .cart-icon{
-        position: relative;
-        &-count{
+  .cart-icon {
+    position: relative;
+    &-count {
+      position: absolute;
+      right: -25px;
+      top: -15px;
+      border-radius: 50%;
+      background-color: #000000;
+      color: #ffffff;
+      width: 35px;
+      height: 35px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+    }
+    svg {
+      height: 45px;
+    }
+  }
+}
+
+@media screen and (max-width: 767.9px) {
+    .navbar {
+        height: 100px;
+      
+        .logo {
+          svg {
+            width: auto;
+            height: 20px;
+          }
+        }
+      
+        .cart-icon {
+          position: relative;
+          &-count {
             position: absolute;
-            right: -25px;
-            top: -15px;
+            right: -5px;
+            top: -10px;
             border-radius: 50%;
             background-color: #000000;
             color: #ffffff;
-            width: 35px;
-            height: 35px;
+            width: 20px;
+            height: 20px;
             display: inline-flex;
             justify-content: center;
             align-items: center;
+          }
+          svg {
+            height: 25px;
+          }
         }
-        svg{
-            height: 45px;
-        }
-    }
+      }
 }
