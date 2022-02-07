@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body{
+    font-family: 'Galano Grotesque', sans-serif;
+}
+
+.btn-dem{
+    border-radius: 0;
+    background-color: #000000;
+    color: #fff;
+    padding: 1.2rem 2.4rem;
+    text-transform: uppercase;
+
+    &:hover{
+        color: #ffffff;
+    }
+}
+
+
+@media screen and (max-with:991px){
+    .btn-dem{
+        padding: 1rem 2rem;
+    }
+}
+
+@media screen and (max-with:767.9px){
+    .btn-dem{
+        padding:.8rem 1.6rem;
+    }
+}
+
+@media screen and (max-with:566.9px){
+    
+}

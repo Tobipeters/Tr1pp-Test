@@ -1,0 +1,30 @@
+.navbar{
+    height: 150px;
+
+    .logo{
+        svg{
+            width: auto;
+            height: 35px;
+        }
+    }
+
+    .cart-icon{
+        position: relative;
+        &-count{
+            position: absolute;
+            right: -25px;
+            top: -15px;
+            border-radius: 50%;
+            background-color: #000000;
+            color: #ffffff;
+            width: 35px;
+            height: 35px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+        }
+        svg{
+            height: 45px;
+        }
+    }
+}
