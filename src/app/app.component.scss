@@ -47,6 +47,10 @@
   }
 }
 
+.h-line{
+    width: 80%;
+}
+
 @media screen and (max-width: 991px) {
   .hero-section {
     .text-container {
@@ -73,13 +77,17 @@
     .hero-section {
         .text-container {
           height: 375px;
+
+
     
           .text-holder {
-            .new-arrival-badge {
+            .new-arrival-badge{
+                font-size: .9rem;
+                padding: .4rem .8rem;
             }
     
             .title {
-              font-size: 2.5rem;
+              font-size: 1.8rem;
               text-align: center;
               width: 95%;
             }
