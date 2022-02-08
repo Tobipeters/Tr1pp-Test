@@ -1,11 +1,11 @@
 <div class="card product-card">
     <div class="product-image">
         <div class="buy">Buy</div>
-        <img src="../../../assets/product-1.png" />
+        <img [src]="product.image[0].src" />
     </div>
 
     <div class="py-4">
-        <h5 class="title mb-0">V Neck T-Shirt</h5>
-        <p class="price">$420</p>
+        <h5 class="title mb-0">{{product.name}}</h5>
+        <p class="price">{{product.price | currency:'GBP' }}</p>
     </div>
 </div>

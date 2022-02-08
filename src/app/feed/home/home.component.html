@@ -1,0 +1,27 @@
+<app-nav></app-nav>
+<!-- Hero section -->
+<div class="container py-3">
+    <header class="hero-section">
+      <div class="text-container">
+        <div class="text-holder">
+          <div class="new-arrival-badge">New Arrivals</div>
+          <h3 class="title">Classic Low Bridge Sunglasses</h3>
+          <h5 class="price">£150</h5>
+          <button class="btn btn-dem">Explore &amp; buy</button>
+        </div>
+      </div>
+    </header>
+  </div>
+  
+  <section class="container pb-3">
+    <div class="row">
+      <div class="col-6" *ngFor="let item of products">
+        <app-product [product]="item"></app-product>
+      </div>
+    </div>
+  
+    <div class="h-line mb-5 mx-auto"></div>
+  
+  </section>
+
+  <app-footer></app-footer>

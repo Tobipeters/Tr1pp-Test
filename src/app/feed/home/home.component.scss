@@ -1,0 +1,104 @@
+.hero-section {
+    background-image: url("../../../assets/hero-section-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    .text-container {
+      height: 600px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      .text-holder {
+        .new-arrival-badge {
+          text-transform: uppercase;
+          color: #000000;
+          padding: 0.5rem 1rem;
+          display: block;
+          width: fit-content;
+          margin: 0 auto 1.5rem;
+          border: solid 2px #000000;
+        }
+  
+        .title {
+          font-size: 5rem;
+          font-weight: 500;
+          color: #000000;
+          line-height: 1.25;
+          text-align: center;
+          width: 80%;
+          margin: 0 auto;
+        }
+  
+        .price {
+          text-align: center;
+          color: #000000;
+          font-size: 1.2rem;
+          font-weight: 500;
+          margin: 1.5rem 0;
+        }
+  
+        .btn {
+          display: block;
+          width: fit-content;
+          margin: auto;
+        }
+      }
+    }
+  }
+  
+  .h-line{
+      width: 70%;
+      height: 1px ;
+      background-color: #707070;
+  }
+  
+  @media screen and (max-width: 991px) {
+    .hero-section {
+      .text-container {
+        height: 600px;
+  
+        .text-holder {
+          .new-arrival-badge {
+          }
+  
+          .title {
+            font-size: 4.5rem;
+            text-align: center;
+          }
+  
+          .price {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 767.9px) {
+      .hero-section {
+          .text-container {
+            height: 375px;
+  
+  
+      
+            .text-holder {
+              .new-arrival-badge{
+                  font-size: .9rem;
+                  padding: .4rem .8rem;
+              }
+      
+              .title {
+                font-size: 1.8rem;
+                text-align: center;
+                width: 95%;
+              }
+      
+              .price {
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+  }
+  

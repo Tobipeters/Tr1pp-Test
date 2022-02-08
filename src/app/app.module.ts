@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SharedModule } from './shared/shared.module';
+import { FeedModule } from './feed/feed.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import { SharedModule } from './shared/shared.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule
+    FeedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
