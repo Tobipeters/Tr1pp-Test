@@ -1,5 +1,5 @@
 <div class="card product-card">
-    <div class="product-image">
+    <div class="product-image" (click)="viewProduct(product.id)" >
         <div class="buy">Buy</div>
         <img [src]="product.image[0].src" />
     </div>
